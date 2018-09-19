@@ -4,7 +4,7 @@
   background: white;
   transition: all 0.3s ease;
   height: 70px;
-  padding: 0px 30px;
+  padding: 0px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,9 +12,23 @@
 
 /* Logo */
 .navbar-wagon-brand img {
-  height: 50px;
+
 }
 
+.contianer-logo{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin-top: 10px
+}
+
+.kiss_my_asana{
+  margin-top: 16px;
+  margin-left: -16px;
+}
+.lips{
+  margin-top: 34px;
+}
 /* User Avatar */
 .navbar-wagon .avatar {
   height: 35px;
